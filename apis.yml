@@ -1,7 +1,25 @@
 aid: neonrain-inc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/neonrain-inc.png
 name: NeonRain, Inc.
-description: NeonRain, Inc. is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: NeonRain, Inc. is a 500 Global portfolio company whose public product surface
+  resolves to Playabl (playabl.ai), an AI-powered, no-code platform that lets anyone create
+  web games and interactive experiences by chatting with AI. Users describe a game idea in
+  plain English and Playabl's generative AI produces a playable prototype instantly, which
+  can be refined conversationally and published to the web. Founded in 2025 and headquartered
+  in the United States, the product targets educators, indie developers, marketers, and
+  hobbyists. As of this enrichment pass the company publishes a consumer web application with
+  no developer-facing API, SDK, documentation, or developer portal surface.
 url: https://raw.githubusercontent.com/api-evangelist/neonrain-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- Game Development
+- No-Code
+- Generative AI
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +46,20 @@ maintainers:
 common:
 - type: Website
   url: https://playabl.ai
+- type: LLMsTxt
+  url: llms/neonrain-inc-llms.txt
+- type: DomainSecurity
+  url: security/neonrain-inc-domain-security.yml
+- type: Pricing
+  url: https://playabl.ai/en/pricing
+- type: SignUp
+  url: https://playabl.ai/en/
+- type: TermsOfService
+  url: https://playabl.ai/en/legal/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://playabl.ai/en/legal/privacy-policy
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
